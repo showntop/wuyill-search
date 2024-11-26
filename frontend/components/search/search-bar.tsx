@@ -68,10 +68,10 @@ const SearchBar: React.FC<Props> = ({
     };
 
     const handleClick = () => {
-        if (!user) {
-            signInModal.onOpen();
-            return;
-        }
+        // if (!user) {
+        //     signInModal.onOpen();
+        //     return;
+        // }
         if (checkEmptyInput()) {
             return;
         }
@@ -278,11 +278,11 @@ const SearchBar: React.FC<Props> = ({
                                         data-umami-event="Attach Button Click"
                                         className="text-gray-500 hover:text-primary hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg p-2 flex items-center"
                                         onClick={() => {
-                                            if (!user) {
-                                                signInModal.onOpen();
-                                            } else {
+                                            // if (!user) {
+                                            //     signInModal.onOpen();
+                                            // } else {
                                                 openFileDialog();
-                                            }
+                                            // }
                                         }}
                                     >
                                         {isUploading ? (

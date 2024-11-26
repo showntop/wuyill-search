@@ -13,7 +13,7 @@ export async function HeroLanding() {
                 <Image src="/logo.png" alt="Penguin" width={30} height={30} className="size-6" />
                 <span>WuYill AI - 做最快准了解你的AI搜索</span>
                 <span className="ml-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-1 rounded-full text-sm font-medium hover:shadow-lg transition-all">
-                    开始使用
+                    开始
                 </span>
             </div>
         </Link>

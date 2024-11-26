@@ -34,7 +34,7 @@ export default async function MarketingLayout({ children }: MarketingLayoutProps
                 <SidebarDesktop />
                 <SidebarOpen user={user} />
                 {children}
-                <MobileFooter />
+                {/* <MobileFooter /> */}
             </main>
         </div>
     );

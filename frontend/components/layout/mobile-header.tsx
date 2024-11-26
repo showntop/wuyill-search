@@ -18,7 +18,7 @@ export default async function MobileHeader({ user }: NavBarProps) {
                 <SidebarMobile>
                     <SearchHistory user={user} />
                 </SidebarMobile>
-                <div className="my-2 mr-6">
+                {/* <div className="my-2 mr-6">
                     {user ? (
                         <UserAccountNav user={user} />
                     ) : (
@@ -26,7 +26,7 @@ export default async function MobileHeader({ user }: NavBarProps) {
                             Sign In
                         </Link>
                     )}
-                </div>
+                </div> */}
             </div>
         </header>
     );
