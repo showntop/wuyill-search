@@ -75,14 +75,14 @@ export function SidebarList({ user }: SidebarListProps) {
             </div>
 
             <div className="flex items-center justify-between p-1 border-t">
-                {/* {user && <UserAccountNav user={user} />}
+                {user && <UserAccountNav user={user} />}
                 <ThemeToggle />
                 <LocaleSelect className="hover:bg-accent hover:text-accent-foreground" />
                 <Link href="/settings" prefetch={false} aria-label="Settings">
                     <Button variant="ghost" className="leading-none p-2 h-auto">
                         <Settings className="size-4" />
                     </Button>
-                </Link> */}
+                </Link>
             </div>
         </div>
     );

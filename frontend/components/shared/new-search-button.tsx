@@ -17,7 +17,7 @@ export function NewSearchButton({ variant = 'text', className, umamiEvent, type,
     const handleNewSearch = useNewSearch();
 
     const handleClick = type === 'UI' ? handleNewGenerateUI : handleNewSearch;
-    const buttonText = variant === 'icon' && type === 'UI' ? 'UI' : type === 'UI' ? 'New Generate UI' : 'New Search';
+    const buttonText = variant === 'icon' && type === 'UI' ? 'UI' : type === 'UI' ? 'New Generate UI' : '新会话';
     const buttonVariant = variant === 'icon' ? 'ghost' : 'outline';
     const additionalClasses =
         variant === 'text' ? 'h-10 w-full bg-zinc-50 px-4 shadow-none transition-colors hover:bg-zinc-200/40 dark:bg-zinc-900 dark:hover:bg-zinc-300/10' : '';

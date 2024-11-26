@@ -2,6 +2,7 @@ import { getCurrentUser } from '@/lib/session';
 import MobileHeader from '@/components/layout/mobile-header';
 import dynamic from 'next/dynamic';
 import { MobileFooter } from '@/components/layout/mobile-footer';
+import { Toolbox } from '@/components/sidebar/sidebar-toolbox';
 
 interface MarketingLayoutProps {
     children: React.ReactNode;
@@ -15,7 +16,7 @@ const OneTapComponent = dynamic(() => import('@/components/google-one-tap'), {
     loading: () => <></>,
 });
 
-const SidebarOpen = dynamic(() => import('@/components/sidebar/sidebar-open'), {
+const SidebarStage = dynamic(() => import('@/components/sidebar/sidebar-stage'), {
     loading: () => <></>,
 });
 
@@ -32,7 +33,7 @@ export default async function MarketingLayout({ children }: MarketingLayoutProps
             {user && <Featurebase user={user} />}
             <main className="relative flex h-lvh overflow-hidden">
                 <SidebarDesktop />
-                <SidebarOpen user={user} />
+                <SidebarStage user={user} />
                 {children}
                 {/* <MobileFooter /> */}
             </main>
