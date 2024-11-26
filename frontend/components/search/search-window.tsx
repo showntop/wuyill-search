@@ -213,8 +213,8 @@ export default function SearchWindow({ id, initialMessages, user, isReadOnly = f
             }
 
             try {
-                // const url = searchType === 'ui' || useSearchStore.getState().activeSearch?.messages[0]?.type === 'ui' ? '/api/generate-ui' : '/api/search';
-                const url = searchType === 'ui' || useSearchStore.getState().activeSearch?.messages[0]?.type === 'ui' ? '/api/generate-ui' : 'http://localhost:8080/api/search';
+                const url = searchType === 'ui' || useSearchStore.getState().activeSearch?.messages[0]?.type === 'ui' ? '/api/generate-ui' : '/api/search';
+                // const url = searchType === 'ui' || useSearchStore.getState().activeSearch?.messages[0]?.type === 'ui' ? '/api/generate-ui' : 'http://1.13.174.238/api/search';
                 await fetchEventSource(url, {
                     method: 'post',
                     headers: {

@@ -6,12 +6,12 @@
         "hero2": "来自知识库和互联网的混合AI搜索"
     },
     "MetaDate": {
-        "title": "MemFree - 混合AI搜索",
-        "name": "MemFree",
-        "description": "MemFree - 来自知识库和互联网的混合AI搜索，更快获取准确答案"
+        "title": "Wuyill - AI搜索",
+        "name": "Wuyill",
+        "description": "Wuyill - 来自知识库和互联网的混合AI搜索，更快获取准确答案"
     },
     "Pricing": {
-        "title": "MemFree定价",
+        "title": "Wuyill定价",
         "description": "立即获取无限访问权限",
         "Free1": "每天5次基础AI搜索",
         "Free8": "每天5次 AI UI Page 生成",
@@ -42,7 +42,7 @@
         "pre-call": "订阅",
         "pre-once-call": "一次性支付",
         "paid-call": "管理订阅",
-        "upgrade-call": "通过 MemFree Pro 解锁高级功能",
+        "upgrade-call": "通过 Wuyill Pro 解锁高级功能",
         "upgrade-button": "立即升级",
         "Reminder": "一次性支付支持微信和支付宝支付"
     },
@@ -62,7 +62,7 @@
         "title2": "通过图像搜索和提问",
         "title3": "搜索和提问 Product Hunt 问题",
         "title4": "总结和提问网页和PDF",
-        "title5": "什么是 MemFree AI搜索",
+        "title5": "什么是 Wuyill AI搜索",
         "title6": "搜索和提问 Twitter 问题",
         "title7": "解释和编写代码"
     },
@@ -81,7 +81,7 @@
         "local-file": "本地文件"
     },
     "IndexWeb": {
-        "placeholder": "请输入您重视的公共网页的URL。Memfree将让您通过AI搜索这些页面的内容。",
+        "placeholder": "请输入您重视的公共网页的URL。Wuyill将让您通过AI搜索这些页面的内容。",
         "index-button": "索引网页",
         "index-extension": "通过 Chrome 或 Edge 扩展索引网页",
         "extension-note": "浏览器扩展以更快的索引和更好的质量"
