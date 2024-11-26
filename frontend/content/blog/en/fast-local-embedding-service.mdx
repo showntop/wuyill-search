@@ -7,7 +7,7 @@ date: '2024-06-30'
 
 ## Why Not use openai embedding API
 
-Memfree initially used the openai embedding API, which is very easy to use, and the latest text-embedding-3-large model also supports custom dimensions. The only problem is latency. Even for very short inputs, the openai API latency takes 100 to 200 milliseconds.
+Wuyill initially used the openai embedding API, which is very easy to use, and the latest text-embedding-3-large model also supports custom dimensions. The only problem is latency. Even for very short inputs, the openai API latency takes 100 to 200 milliseconds.
 
 When you only need to build vector indexes and search services, a latency of more than 100 milliseconds is acceptable. However, when you need a rerank service, a latency of several hundred milliseconds is unacceptable, because the Internet search engine before rerank takes 500 to 1000 milliseconds.
 
@@ -78,7 +78,7 @@ async fn main() -> Result<()> {
 }
 ```
 
-**The complete code is now open source**: https://github.com/memfreeme/memfree
+**The complete code is now open source**: https://github.com/showntop/wuyill
 
 ### 4. How to choose embedding model
 
@@ -88,13 +88,13 @@ After testing and trade off these points, I finally chose the sentence-transform
 
 **Welcome to star, All code for the entire project has been open source**：
 
-https://github.com/memfreeme/memfree
+https://github.com/showntop/wuyill
 
 Feel free to reach out if you have any questions or feedback!
 
 ## Series of Hybird AI Search
 
--   [Hybird AI Search 1 - How to build Fast Embedding Service](https://www.memfree.me/blog/fast-local-embedding-service)
--   [Hybrid AI Search 2 - How to build Serverless Vector Search with LanceDB](https://www.memfree.me/blog/serverless-vector-search-lancedb)
--   [Hybrid AI Search 3 - The Full Tech Stack](https://www.memfree.me/blog/hybrid-ai-search-tech-stack)
--   [Hybrid AI Search 4 - Get tweet content fast and free](https://www.memfree.me/blog/tweet-content-fast-free)
+-   [Hybird AI Search 1 - How to build Fast Embedding Service](https://www.wuyill.com/blog/fast-local-embedding-service)
+-   [Hybrid AI Search 2 - How to build Serverless Vector Search with LanceDB](https://www.wuyill.com/blog/serverless-vector-search-lancedb)
+-   [Hybrid AI Search 3 - The Full Tech Stack](https://www.wuyill.com/blog/hybrid-ai-search-tech-stack)
+-   [Hybrid AI Search 4 - Get tweet content fast and free](https://www.wuyill.com/blog/tweet-content-fast-free)

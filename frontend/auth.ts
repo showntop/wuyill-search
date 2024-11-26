@@ -37,7 +37,7 @@ export const config = {
         GitHub,
         Google,
         Resend({
-            from: 'MemFree <email@email.memfree.me>',
+            from: 'Wuyill <email@email.wuyill.com>',
             sendVerificationRequest,
         }),
         Credentials({

@@ -20,7 +20,7 @@ export async function SearchHistory({ user }: SearchHistoryProps) {
         <div className="flex flex-col h-full">
             <div className="flex items-center mt-4 md:col-span-1 mx-4">
                 <Link href="/" prefetch={false} className="items-center space-x-2 flex">
-                    <Image src={'/logo.png'} width="24" height="24" alt="MemFree Logo"></Image>
+                    <Image src={'/logo.png'} width="24" height="24" alt="Wuyill Logo"></Image>
                     <span className=" mx-2 font-urban text-xl font-bold">{siteConfig.name}</span>
                 </Link>
                 <div className="ml-auto">

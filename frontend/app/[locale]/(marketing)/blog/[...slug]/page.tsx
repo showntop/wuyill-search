@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
         description: post.description,
         authors: [
             {
-                name: 'MemFree',
+                name: 'Wuyill',
             },
         ],
         openGraph: {

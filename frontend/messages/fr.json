@@ -1,17 +1,17 @@
 {
     "HomePage": {
         "hero": "Débloquez des réponses précises plus rapidement",
-        "hero-product": "Votez pour MemFree pour une réduction de 20 % !",
+        "hero-product": "Votez pour Wuyill pour une réduction de 20 % !",
         "hero-h1": "Recherche hybride IA - obtenez des réponses précises plus rapidement",
         "hero2": "Recherche hybride IA à partir de la base de connaissances et d'Internet"
     },
     "MetaDate": {
-        "title": "MemFree - Recherche hybride IA",
-        "name": "MemFree",
-        "description": "MemFree - Recherche hybride IA à partir de la base de connaissances et d'Internet, obtenez des réponses précises plus rapidement"
+        "title": "Wuyill - Recherche hybride IA",
+        "name": "Wuyill",
+        "description": "Wuyill - Recherche hybride IA à partir de la base de connaissances et d'Internet, obtenez des réponses précises plus rapidement"
     },
     "Pricing": {
-        "title": "Tarification de MemFree",
+        "title": "Tarification de Wuyill",
         "description": "Obtenez un accès illimité maintenant",
         "Free1": "Jusqu'à 5 recherches IA de base par jour",
         "Free8": "5 générations de pages UI AI par jour",
@@ -45,27 +45,27 @@
         "pre-call": "S'abonner",
         "pre-once-call": "Payer une fois",
         "paid-call": "Gérer l'abonnement",
-        "upgrade-call": "Débloquez des fonctionnalités avancées avec MemFree Pro",
+        "upgrade-call": "Débloquez des fonctionnalités avancées avec Wuyill Pro",
         "upgrade-button": "Mettre à niveau maintenant",
         "Reminder": "Si vous ne trouvez pas de méthode de paiement préférée dans les options d'abonnement, envisagez d'utiliser l'option de paiement unique, qui offre plus de méthodes de paiement."
     },
     "PricingFAQ": {
         "title": "Questions Fréquemment Posées",
-        "question1": "Pourquoi MemFree pourrait-il rationaliser votre gestion des connaissances",
-        "answer1": "Pas besoin d'organiser manuellement votre base de connaissances (notes, signets et documents). Lorsque vous avez besoin d'informations ou de réponses, il vous suffit de rechercher dans MemFree en un clic, libérant ainsi votre capacité de mémoire et améliorant votre productivité.",
-        "question2": "Pourquoi MemFree peut-il vous faire gagner du temps et améliorer votre efficacité",
-        "answer2": "Pas besoin de cliquer sur plusieurs pages web une par une dans les résultats de recherche Google. MemFree utilise l'IA pour résumer immédiatement les meilleures réponses de plusieurs pages web et de votre base de connaissances, vous faisant gagner beaucoup de temps chaque jour.",
-        "question3": "Pourquoi MemFree est-il une solution rentable",
+        "question1": "Pourquoi Wuyill pourrait-il rationaliser votre gestion des connaissances",
+        "answer1": "Pas besoin d'organiser manuellement votre base de connaissances (notes, signets et documents). Lorsque vous avez besoin d'informations ou de réponses, il vous suffit de rechercher dans Wuyill en un clic, libérant ainsi votre capacité de mémoire et améliorant votre productivité.",
+        "question2": "Pourquoi Wuyill peut-il vous faire gagner du temps et améliorer votre efficacité",
+        "answer2": "Pas besoin de cliquer sur plusieurs pages web une par une dans les résultats de recherche Google. Wuyill utilise l'IA pour résumer immédiatement les meilleures réponses de plusieurs pages web et de votre base de connaissances, vous faisant gagner beaucoup de temps chaque jour.",
+        "question3": "Pourquoi Wuyill est-il une solution rentable",
         "answer3": "Pas besoin de s'abonner à plusieurs outils d'IA tels que ChatGPT Plus, Claude Pro et Gemini Advanced, ce qui réduira considérablement vos frais d'abonnement mensuels.",
         "question4": "Comment nous contacter ?",
-        "answer4": "Si vous rencontrez des problèmes de paiement ou d'abonnement, veuillez nous contacter par email à support@memfree.me ou via feedback.memfree.me"
+        "answer4": "Si vous rencontrez des problèmes de paiement ou d'abonnement, veuillez nous contacter par email à support@wuyill.com ou via feedback.wuyill.com"
     },
     "DemoQuestions": {
         "title1": "Comparer, résumer, rechercher plusieurs images",
         "title2": "Rechercher et demander par image",
         "title3": "Rechercher et poser des questions sur Product Hunt",
         "title4": "Résumer et poser des questions sur une page web et un PDF",
-        "title5": "Qu'est-ce que la recherche IA de MemFree ?",
+        "title5": "Qu'est-ce que la recherche IA de Wuyill ?",
         "title6": "Rechercher et poser des questions sur Twitter",
         "title7": "Expliquer et écrire du code"
     },
@@ -84,7 +84,7 @@
         "local-file": "Fichier Local"
     },
     "IndexWeb": {
-        "placeholder": "Veuillez entrer l'URL des pages web publiques que vous appréciez. Memfree vous permettra de rechercher le contenu de ces pages par IA.",
+        "placeholder": "Veuillez entrer l'URL des pages web publiques que vous appréciez. Wuyill vous permettra de rechercher le contenu de ces pages par IA.",
         "index-button": "Indexer la page web",
         "index-extension": "Indexer la page web par l'extension Chrome ou Edge",
         "extension-note": "Extension de navigateur pour une indexation plus rapide et de meilleure qualité"

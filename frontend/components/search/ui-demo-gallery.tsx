@@ -6,7 +6,7 @@ import Image from 'next/image';
 const DemoGallery = () => {
     const images = [
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-ai-pricing-page.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-ai-pricing-page.png',
             user: 'https://randomuser.me/api/portraits/women/2.jpg',
             description: 'A Pricing Page',
             link: '/share/nhC7sRElQh',
@@ -15,7 +15,7 @@ const DemoGallery = () => {
             lazy: false,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-wall-of-love.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-wall-of-love.png',
             user: 'https://randomuser.me/api/portraits/men/1.jpg',
             description: 'A wall of love',
             link: '/share/H13DXoooD5',
@@ -24,7 +24,7 @@ const DemoGallery = () => {
             lazy: false,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-case-landing-page.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-case-landing-page.png',
             user: 'https://randomuser.me/api/portraits/women/3.jpg',
             description: 'A Landing Page',
             link: '/share/422anMjcvm',
@@ -33,7 +33,7 @@ const DemoGallery = () => {
             lazy: false,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-case-image-payment.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-case-image-payment.png',
             user: 'https://randomuser.me/api/portraits/men/4.jpg',
             description: 'Payment Method UI Generated from Image',
             link: '/share/Ycjo4gsLgT',
@@ -42,7 +42,7 @@ const DemoGallery = () => {
             lazy: true,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-image-gallery.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-image-gallery.png',
             user: 'https://randomuser.me/api/portraits/men/5.jpg',
             description: 'A Image Gallery',
             link: '/share/ZDLk0pqYLl',
@@ -51,7 +51,7 @@ const DemoGallery = () => {
             lazy: true,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-case-clone-image.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-case-clone-image.png',
             user: 'https://randomuser.me/api/portraits/men/6.jpg',
             description: 'Clone Any Static Page From Screenshot',
             link: '/share/suycUClVdH',
@@ -60,7 +60,7 @@ const DemoGallery = () => {
             lazy: true,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-stock-price.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-stock-price.png',
             user: 'https://randomuser.me/api/portraits/men/3.jpg',
             description: `Real Stock Price With AI search`,
             link: '/share/FI3zIsKdKk',
@@ -69,7 +69,7 @@ const DemoGallery = () => {
             lazy: true,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-profile-image.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-profile-image.png',
             user: 'https://randomuser.me/api/portraits/women/1.jpg',
             description: `Profile Card With AI search`,
             link: '/share/eyi7CLcprZ',
@@ -78,7 +78,7 @@ const DemoGallery = () => {
             lazy: true,
         },
         {
-            src: 'https://image.memfree.me/memfree-generate-ui-ppt-search.png',
+            src: 'https://image.wuyill.com/wuyill-generate-ui-ppt-search.png',
             user: 'https://randomuser.me/api/portraits/women/1.jpg',
             description: `Generate PPT With AI search`,
             link: '/share/iN0fOIYs9J',

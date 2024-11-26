@@ -25,7 +25,7 @@ export async function knowledgeBaseSearch(messages: StoreMessage[], isPro: boole
         } else {
             const answer = `#### No relevant content in your Knowledge Base
 #### Please indexing your Knowledge Base first
-#### MemFree now supports indexing local files, web pages, and browser bookmarks.
+#### Wuyill now supports indexing local files, web pages, and browser bookmarks.
 #### You can also choose All search source`;
             await streamResponse({ answer: answer }, onStream);
             await saveMessages(userId, messages, answer);

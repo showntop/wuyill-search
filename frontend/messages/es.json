@@ -1,17 +1,17 @@
 {
     "HomePage": {
         "hero": "Desbloquea respuestas precisas más rápido",
-        "hero-product": "¡Vota por MemFree para un descuento del 20 %!",
+        "hero-product": "¡Vota por Wuyill para un descuento del 20 %!",
         "hero-h1": "Búsqueda híbrida de IA - obtén respuestas precisas más rápido",
         "hero2": "Búsqueda híbrida de IA desde la base de conocimientos y la Internet"
     },
     "MetaDate": {
-        "title": "MemFree - Búsqueda híbrida de IA",
-        "name": "MemFree",
-        "description": "MemFree - Búsqueda híbrida de IA desde la base de conocimientos y la Internet, obtén respuestas precisas más rápido"
+        "title": "Wuyill - Búsqueda híbrida de IA",
+        "name": "Wuyill",
+        "description": "Wuyill - Búsqueda híbrida de IA desde la base de conocimientos y la Internet, obtén respuestas precisas más rápido"
     },
     "Pricing": {
-        "title": "Precios de MemFree",
+        "title": "Precios de Wuyill",
         "description": "Obtén acceso ilimitado ahora",
         "Free1": "Hasta 5 búsquedas básicas de IA por día",
         "Free8": "5 generación de páginas UI de IA por día",
@@ -45,27 +45,27 @@
         "pre-call": "Suscribirse",
         "pre-once-call": "Pagar una vez",
         "paid-call": "Gestionar suscripción",
-        "upgrade-call": "Desbloquear funciones avanzadas con MemFree Pro",
+        "upgrade-call": "Desbloquear funciones avanzadas con Wuyill Pro",
         "upgrade-button": "Actualizar ahora",
         "Reminder": "Si no encuentra un método de pago preferido en las opciones de suscripción, considere usar la opción de pago único, que ofrece más métodos de pago."
     },
     "PricingFAQ": {
         "title": "Preguntas Frecuentes",
-        "question1": "¿Por qué MemFree podría optimizar la gestión de su conocimiento?",
-        "answer1": "No es necesario organizar manualmente su base de conocimientos (notas, marcadores y documentos). Cuando necesite información o respuestas, simplemente busque en MemFree con un clic, liberando su capacidad de memoria y mejorando su productividad.",
-        "question2": "¿Por qué MemFree puede ahorrarle tiempo y mejorar su eficiencia?",
-        "answer2": "No es necesario hacer clic en múltiples páginas web una por una en los resultados de búsqueda de Google. MemFree utiliza IA para resumir inmediatamente las mejores respuestas de múltiples páginas web y su base de conocimientos, ahorrándole mucho tiempo cada día.",
-        "question3": "¿Por qué MemFree es una solución rentable?",
+        "question1": "¿Por qué Wuyill podría optimizar la gestión de su conocimiento?",
+        "answer1": "No es necesario organizar manualmente su base de conocimientos (notas, marcadores y documentos). Cuando necesite información o respuestas, simplemente busque en Wuyill con un clic, liberando su capacidad de memoria y mejorando su productividad.",
+        "question2": "¿Por qué Wuyill puede ahorrarle tiempo y mejorar su eficiencia?",
+        "answer2": "No es necesario hacer clic en múltiples páginas web una por una en los resultados de búsqueda de Google. Wuyill utiliza IA para resumir inmediatamente las mejores respuestas de múltiples páginas web y su base de conocimientos, ahorrándole mucho tiempo cada día.",
+        "question3": "¿Por qué Wuyill es una solución rentable?",
         "answer3": "No es necesario suscribirse a múltiples herramientas de IA como ChatGPT Plus, Claude Pro y Gemini Advanced, lo que reducirá significativamente sus tarifas de suscripción mensual.",
         "question4": "¿Cómo contactarnos?",
-        "answer4": "Si experimenta algún problema con el pago o la suscripción, por favor contáctenos por correo electrónico a support@memfree.me o a través de feedback.memfree.me"
+        "answer4": "Si experimenta algún problema con el pago o la suscripción, por favor contáctenos por correo electrónico a support@wuyill.com o a través de feedback.wuyill.com"
     },
     "DemoQuestions": {
         "title1": "Comparar, resumir, buscar múltiples imágenes",
         "title2": "Buscar y preguntar por imagen",
         "title3": "Buscar y hacer preguntas sobre Product Hunt",
         "title4": "Resumir y preguntar sobre páginas web y PDF",
-        "title5": "¿Qué es la búsqueda de IA de MemFree?",
+        "title5": "¿Qué es la búsqueda de IA de Wuyill?",
         "title6": "Buscar y preguntar sobre preguntas de Twitter",
         "title7": "Explicar y escribir código"
     },
@@ -84,7 +84,7 @@
         "local-file": "Archivo local"
     },
     "IndexWeb": {
-        "placeholder": "Por favor, ingresa la URL de las páginas web públicas que valoras. Memfree te permitirá buscar el contenido de estas páginas mediante IA.",
+        "placeholder": "Por favor, ingresa la URL de las páginas web públicas que valoras. Wuyill te permitirá buscar el contenido de estas páginas mediante IA.",
         "index-button": "Indexar página web",
         "index-extension": "Indexar página web mediante la extensión de Chrome o Edge",
         "extension-note": "Extensión del navegador para una indexación más rápida y mejor calidad"

@@ -120,7 +120,7 @@ export const Preview = forwardRef<PreviewRef, PreviewProps>(({ componentCode, on
             const blobUrl = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = blobUrl;
-            link.download = `memfree-generate-ui-${Date.now()}.png`;
+            link.download = `wuyill-generate-ui-${Date.now()}.png`;
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

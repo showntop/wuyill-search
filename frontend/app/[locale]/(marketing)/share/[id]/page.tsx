@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: SharePageProps): Promise<Meta
     const search = await getSharedSearch(params.id);
 
     return {
-        title: search?.title ?? 'MemFree - Hybrid AI Search',
-        description: search?.title ?? 'MemFree - Hybrid AI Search',
+        title: search?.title ?? 'Wuyill - Hybrid AI Search',
+        description: search?.title ?? 'Wuyill - Hybrid AI Search',
     };
 }
 

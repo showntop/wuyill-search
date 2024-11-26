@@ -23,12 +23,12 @@ export const siteConfig: SiteConfig = {
     name: 'WuYill AI',
     footerDesc: '做最快最了解你的AI搜索',
     url: site_url,
-    ogImage: `${site_url}/memfree.png`,
+    ogImage: `${site_url}/wuyill.png`,
     links: {
         // twitter: 'https://twitter.com/intent/user?&region=follow&screen_name=ahaapple2023',
         github: 'https://github.com/showntop',
         // discord: 'https://discord.gg/7QqyMSTaRq',
-        // feedback: 'https://feedback.memfree.me',
+        // feedback: 'https://feedback.wuyill.com',
     },
     mailSupport: 'rongtaoxiao@gmail.com',
 };
@@ -62,7 +62,7 @@ export const docsConfig: DocsConfig = {
                 },
                 {
                     title: 'User Guide',
-                    href: '/docs/memfree-user-guide',
+                    href: '/docs/wuyill-user-guide',
                 },
                 {
                     title: 'Chrome Extension',
@@ -86,8 +86,8 @@ export const docsConfig: DocsConfig = {
                     href: '/docs/deploy-searxng-fly-io',
                 },
                 {
-                    title: 'Deploy MemFree On Fly.io',
-                    href: '/docs/deploy-memfree-fly-io',
+                    title: 'Deploy Wuyill On Fly.io',
+                    href: '/docs/deploy-wuyill-fly-io',
                 },
                 {
                     title: 'Deploy Embedding On Fly.io',

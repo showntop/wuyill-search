@@ -12,9 +12,9 @@ export async function sendVerificationRequest(params) {
         body: JSON.stringify({
             from: provider.from,
             to,
-            subject: `Sign in to MemFree`,
+            subject: `Sign in to Wuyill`,
             html: html({ url }),
-            text: `Sign in to MemFree`,
+            text: `Sign in to Wuyill`,
         }),
     });
 
@@ -63,13 +63,13 @@ function html(params: { url: string }) {
                             <tr>
                                 <td style="padding: 40px 40px 20px 40px; text-align: center;">
                                     <div style="display: inline-block; margin-bottom: 24px;">
-                                        <img src="https://www.memfree.me/logo.png" 
-                                             alt="MemFree Logo" 
+                                        <img src="https://www.wuyill.com/logo.png" 
+                                             alt="Wuyill Logo" 
                                              style="width: 80px; height: 80px;"
                                         />
                                     </div>
                                     <h1 style="margin: 0; font-size: 28px; font-weight: 700; color: ${colors.text};">
-                                        Welcome to MemFree
+                                        Welcome to Wuyill
                                     </h1>
                                 </td>
                             </tr>
@@ -92,7 +92,7 @@ function html(params: { url: string }) {
                                        }; text-decoration: none; background: linear-gradient(135deg, ${colors.primary} 0%, ${
                                            colors.secondary
                                        } 100%); border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2); transition: all 0.2s ease;">
-                                        Sign in to MemFree
+                                        Sign in to Wuyill
                                     </a>
                                 </td>
                             </tr>
@@ -111,7 +111,7 @@ function html(params: { url: string }) {
                             <tr>
                                 <td style="background-color: ${colors.background}; padding: 20px; text-align: center;">
                                     <p style="margin: 0; font-size: 14px; color: ${colors.lightText};">
-                                        © ${new Date().getFullYear()} MemFree. All rights reserved.
+                                        © ${new Date().getFullYear()} Wuyill. All rights reserved.
                                     </p>
                                 </td>
                             </tr>

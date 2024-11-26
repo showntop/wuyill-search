@@ -37,7 +37,7 @@ const ActionButtons = ({ content, searchId, msgId, reload, searchType }) => {
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <Link
-                            href="https://feedback.memfree.me"
+                            href="https://feedback.wuyill.com"
                             data-featurebase-link
                             target="_blank"
                             rel="noreferrer"

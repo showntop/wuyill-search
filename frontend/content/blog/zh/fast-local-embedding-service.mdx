@@ -7,7 +7,7 @@ date: '2024-06-30'
 
 ## 为什么不使用OpenAI嵌入API
 
-Memfree最初使用了OpenAI嵌入API，这个API非常易于使用，最新的text-embedding-3-large模型也支持自定义维度。唯一的问题是延迟。即使对于非常短的输入，OpenAI API的延迟也需要100到200毫秒。
+Wuyill最初使用了OpenAI嵌入API，这个API非常易于使用，最新的text-embedding-3-large模型也支持自定义维度。唯一的问题是延迟。即使对于非常短的输入，OpenAI API的延迟也需要100到200毫秒。
 
 当你只需要构建向量索引和搜索服务时，超过100毫秒的延迟是可以接受的。然而，当你需要重排序服务时，几百毫秒的延迟是不可接受的，因为互联网搜索引擎在重排序之前的延迟为500到1000毫秒。
 
@@ -94,7 +94,7 @@ async fn main() -> Result<()> {
 
 ## 混合AI搜索系列
 
--   [混合AI搜索1 - 如何构建快速嵌入服务](https://www.memfree.me/blog/fast-local-embedding-service)
--   [混合AI搜索2 - 如何构建无服务器向量搜索与LanceDB](https://www.memfree.me/blog/serverless-vector-search-lancedb)
--   [混合AI搜索3 - 完整技术栈](https://www.memfree.me/blog/hybrid-ai-search-tech-stack)
--   [混合AI搜索4 - 快速免费获取推文内容](https://www.memfree.me/blog/tweet-content-fast-free)
+-   [混合AI搜索1 - 如何构建快速嵌入服务](https://www.wuyill.com/blog/fast-local-embedding-service)
+-   [混合AI搜索2 - 如何构建无服务器向量搜索与LanceDB](https://www.wuyill.com/blog/serverless-vector-search-lancedb)
+-   [混合AI搜索3 - 完整技术栈](https://www.wuyill.com/blog/hybrid-ai-search-tech-stack)
+-   [混合AI搜索4 - 快速免费获取推文内容](https://www.wuyill.com/blog/tweet-content-fast-free)

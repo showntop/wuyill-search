@@ -11,7 +11,7 @@ import { ThemeCard } from '@/components/theme-card';
 import { LanguageCard } from '@/components/language-card';
 
 export const metadata = {
-    title: 'MemFree Settings',
+    title: 'Wuyill Settings',
     description: 'Manage account and website settings.',
 };
 
@@ -26,7 +26,7 @@ export default async function SettingsPage() {
     return (
         <div className="group w-5/6 mx-auto overflow-auto peer-[[data-state=open]]:lg:pl-[300px] peer-[[data-state=open]]:xl:pl-[320px] my-10">
             <DashboardShell>
-                <DashboardHeader heading="MemFree Settings" text="Manage account and website settings." />
+                <DashboardHeader heading="Wuyill Settings" text="Manage account and website settings." />
                 <div className="grid gap-10">
                     <CustomProfile></CustomProfile>
                     <BillingInfo userSubscriptionPlan={userSubscriptionPlan} />

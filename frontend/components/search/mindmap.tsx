@@ -85,7 +85,7 @@ export default function MindMap({ value }) {
 
     const { isGeneratingScreenshot, captureScreenshot } = useScreenshotCapture({
         containerRef,
-        filename: 'memfree-mindmap.png',
+        filename: 'wuyill-mindmap.png',
         scale: 2,
         removeButtons: true,
         additionalPadding: '2rem',

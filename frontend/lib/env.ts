@@ -3,16 +3,16 @@ import 'server-only';
 const {
   VECTOR_INDEX_HOST: indexHost,
   VECTOR_HOST: vectorHost,
-  MEMFREE_HOST: memfreeHost,
+  WUYILL_HOST: wuyillHost,
 } = process.env;
 
 // Set VECTOR_INDEX_HOST with precedence
-export let VECTOR_INDEX_HOST = indexHost || vectorHost || (memfreeHost ? `${memfreeHost}/vector` : '');
-if (!VECTOR_INDEX_HOST) throw new Error('VECTOR_INDEX_HOST, VECTOR_HOST, or MEMFREE_HOST must be defined.');
+export let VECTOR_INDEX_HOST = indexHost || vectorHost || (wuyillHost ? `${wuyillHost}/vector` : '');
+if (!VECTOR_INDEX_HOST) throw new Error('VECTOR_INDEX_HOST, VECTOR_HOST, or WUYILL_HOST must be defined.');
 
 // Set VECTOR_HOST with precedence
-export let VECTOR_HOST = vectorHost || (memfreeHost ? `${memfreeHost}/vector` : '');
-if (!VECTOR_HOST) throw new Error('MEMFREE_HOST or VECTOR_HOST must be defined.');
+export let VECTOR_HOST = vectorHost || (wuyillHost ? `${wuyillHost}/vector` : '');
+if (!VECTOR_HOST) throw new Error('WUYILL_HOST or VECTOR_HOST must be defined.');
 
 // Auth
 export const AUTH_GOOGLE_ID = process.env.AUTH_GOOGLE_ID || '';

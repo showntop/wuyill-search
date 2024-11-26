@@ -5,7 +5,7 @@ image: /images/blog/blog-post-3.jpg
 date: '2024-09-04'
 ---
 
-[MemFree](https://www.memfree.me/) 需要支持为本地文件构建向量化索引。
+[Wuyill](https://www.wuyill.com/) 需要支持为本地文件构建向量化索引。
 最初，我将文件直接上传到部署在 Vercel 上的 NextJS 服务。
 在解析文件并将其处理成统一格式后，我将文本发送到后端向量索引服务。
 
@@ -13,13 +13,13 @@ date: '2024-09-04'
 
 我最初顺利地运行了整个过程，并且测试成功。
 然而，当我上传大文件时，遇到了 Vercel 413 `FUNCTION_PAYLOAD_TOO_LARGE` 错误。
-经过搜索 [MemFree](https://www.memfree.me/)，我了解到这是 Vercel 本身的限制：
+经过搜索 [Wuyill](https://www.wuyill.com/)，我了解到这是 Vercel 本身的限制：
 
 [如何绕过 Vercel Serverless Functions 的 4.5MB 主体大小限制](https://vercel.com/guides/how-to-bypass-vercel-body-size-limit-serverless-functions)
 
 因此，我决定直接从浏览器将文件发送到后端向量索引服务。这里一个重要的问题是如何在不暴露密钥的情况下对向量化索引服务进行身份验证。
 
-在询问 [MemFree](https://www.memfree.me/) 后，我被建议让后端向量服务和 NextJS 的 auth.js 共享一个密钥，然后直接在向量服务中解析和验证令牌。
+在询问 [Wuyill](https://www.wuyill.com/) 后，我被建议让后端向量服务和 NextJS 的 auth.js 共享一个密钥，然后直接在向量服务中解析和验证令牌。
 
 ## 2 如何在 auth.js 中获取身份验证令牌
 
@@ -42,8 +42,8 @@ export const getAuthToken = async () => {
 
 ## 3 jsonwebtoken 无法工作
 
-[MemFree](https://www.memfree.me/) 建议使用 jsonwebtoken 库进行验证，但这并没有成功。
-然而，[MemFree](https://www.memfree.me/) 提醒我，**令牌验证配置和算法必须与 auth.js 中的配置一致**。
+[Wuyill](https://www.wuyill.com/) 建议使用 jsonwebtoken 库进行验证，但这并没有成功。
+然而，[Wuyill](https://www.wuyill.com/) 提醒我，**令牌验证配置和算法必须与 auth.js 中的配置一致**。
 因此，我检查了 auth.js 的源代码，发现它使用 jose 库和 HKDF 算法来生成加密密钥。
 
 ## 4 如何验证 auth.js 令牌
@@ -80,4 +80,4 @@ async function decryptToken(token: string, isDev: boolean) {
 
 核心是调用 jose 的 `jwtDecrypt` 方法。jwtDecrypt 的第三个参数需要与 [auth.js](https://github.com/nextauthjs/next-auth/blob/main/packages/core/src/jwt.ts#L75) 中的配置完全相同。
 
-这是 MemFree 后端向量服务的完整代码：[向量身份验证代码](https://github.com/memfreeme/memfree/blob/main/vector/auth.ts)
+这是 Wuyill 后端向量服务的完整代码：[向量身份验证代码](https://github.com/showntop/wuyill/blob/main/vector/auth.ts)

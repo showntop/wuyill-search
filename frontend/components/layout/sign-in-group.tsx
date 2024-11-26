@@ -17,7 +17,7 @@ export function SignInGroup() {
                 <a href={siteConfig.url}>
                     <Icons.brain className="size-10 text-primary" />
                 </a>
-                <h3 className="font-urban text-2xl font-bold">MemFree</h3>
+                <h3 className="font-urban text-2xl font-bold">Wuyill</h3>
                 <p className="text-md font-medium">Sign in to unlock more features</p>
             </div>
 

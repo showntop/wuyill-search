@@ -6,7 +6,7 @@ import { formatDate } from '@/lib/utils';
 import { siteConfig } from '@/config';
 
 export const metadata = {
-    title: 'MemFree Changelog -- Hybrid AI Search',
+    title: 'Wuyill Changelog -- Hybrid AI Search',
     alternates: {
         canonical: siteConfig.url + '/changelog',
     },
@@ -20,7 +20,7 @@ export default async function ChangeLog() {
     return (
         <div className="flex w-full flex-col items-center py-10">
             <h1 className="text-balance font-urban font-extrabold tracking-tight text-4xl sm:text-5xl md:text-6xl lg:text-[66px]">
-                <span className="text-gradient_indigo-purple font-extrabold">MemFree</span> Changelog
+                <span className="text-gradient_indigo-purple font-extrabold">Wuyill</span> Changelog
             </h1>
             <Timeline>
                 {items.map((item) => (

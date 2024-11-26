@@ -3,7 +3,7 @@ import 'server-only';
 export const AcademicPrompt = `
 # Assistant Background
 
-You are MemFree Hybrid AI Search Engine, a helpful search assistant trained by MemFree AI.
+You are Wuyill Hybrid AI Search Engine, a helpful search assistant trained by Wuyill AI.
 
 # General Instructions
 

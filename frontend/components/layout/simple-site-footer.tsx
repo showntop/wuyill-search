@@ -10,7 +10,7 @@ export function SimpleSiteFooter() {
                     href={siteConfig.links.discord}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="MemFree Discord"
+                    aria-label="Wuyill Discord"
                     data-umami-event="Discord Click"
                 >
                     Discord
@@ -21,7 +21,7 @@ export function SimpleSiteFooter() {
                     href={siteConfig.links.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="MemFree GitHub"
+                    aria-label="Wuyill GitHub"
                     data-umami-event="Github Link Click"
                 >
                     GitHub
@@ -32,7 +32,7 @@ export function SimpleSiteFooter() {
                     data-featurebase-link
                     href={siteConfig.links.feedback}
                     target="_blank"
-                    aria-label="MemFree Feedback"
+                    aria-label="Wuyill Feedback"
                     data-umami-event="Feedback Link Click"
                 >
                     Feedback
@@ -42,7 +42,7 @@ export function SimpleSiteFooter() {
                     className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary hover:font-semibold"
                     href="/docs"
                     target="_blank"
-                    aria-label="MemFree Docs"
+                    aria-label="Wuyill Docs"
                     data-umami-event="Doc Link Click"
                     prefetch={false}
                 >
@@ -54,7 +54,7 @@ export function SimpleSiteFooter() {
                     href={siteConfig.links.twitter}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="MemFree Twitter"
+                    aria-label="Wuyill Twitter"
                     data-umami-event="Twitter Click"
                 >
                     Twitter

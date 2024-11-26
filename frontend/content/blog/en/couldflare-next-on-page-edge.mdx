@@ -1,6 +1,6 @@
 ---
-title: How to migrate MemFree from Vercel to Cloudflare next-on-pages
-description: Issues and solutions for migrating MemFree from vercel to cloudflare next-on-pages
+title: How to migrate Wuyill from Vercel to Cloudflare next-on-pages
+description: Issues and solutions for migrating Wuyill from vercel to cloudflare next-on-pages
 image: /images/blog/blog-post-3.jpg
 date: '2024-11-03'
 ---
@@ -9,11 +9,11 @@ date: '2024-11-03'
 
 Deploying a static Next.js application on Cloudflare Pages is straightforward. You can accomplish this with just a few commands by following the guide on [Cloudflare's documentation for deploying a static Next.js site](https://developers.cloudflare.com/pages/framework-guides/nextjs/deploy-a-static-nextjs-site/).
 
-To validate this process, I first extracted the React review feature from the MemFree AI Page Generator and deployed it as a standalone webpage: [React Shadcn UI Preview](https://reactshadcn.com/).
+To validate this process, I first extracted the React review feature from the Wuyill AI Page Generator and deployed it as a standalone webpage: [React Shadcn UI Preview](https://reactshadcn.com/).
 
 The entire deployment process was smooth, with minimal obstacles encountered.
 
-## Deploying MemFree AI Page Generator on Cloudflare
+## Deploying Wuyill AI Page Generator on Cloudflare
 
 You can experience the online version here: [PageGen - AI Page Generator](https://pagegen.ai/).
 
@@ -91,7 +91,7 @@ In Cloudflare's Next-on-Pages, `NEXT_PUBLIC` environment variables cannot be acc
 
 ### 6. Replace `contentlayer2` with `next/mdx`
 
-The documentation and blog sections of MemFree were generated using `contentlayer2` based on MDX files. However, using `contentlayer2` in Cloudflare Next-on-Pages results in the following error:
+The documentation and blog sections of Wuyill were generated using `contentlayer2` based on MDX files. However, using `contentlayer2` in Cloudflare Next-on-Pages results in the following error:
 
 ```ts
 EvalError: Code generation from strings disallowed for this context
@@ -144,4 +144,4 @@ The domain binding and redirection settings differ between Cloudflare Pages and 
 
 You can explore the live version here: [PageGen - AI Page Generator](https://pagegen.ai/).
 
-All source code for MemFree is open-source, and contributions are welcome! Feel free to give it a star on GitHub: [MemFree GitHub](https://github.com/memfreeme/memfree).
+All source code for Wuyill is open-source, and contributions are welcome! Feel free to give it a star on GitHub: [Wuyill GitHub](https://github.com/showntop/wuyill).

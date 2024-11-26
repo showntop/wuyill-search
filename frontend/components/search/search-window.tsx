@@ -246,7 +246,7 @@ export default function SearchWindow({ id, initialMessages, user, isReadOnly = f
                             return;
                         } else if (response.status === 403) {
                             setIsLoading(false);
-                            toast.error('Your access has been restricted. If you have any questions, please contact support@memfree.me');
+                            toast.error('Your access has been restricted. If you have any questions, please contact support@wuyill.com');
                             return;
                         } else if (response.status === 400) {
                             setIsLoading(false);

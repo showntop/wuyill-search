@@ -1,6 +1,6 @@
 ---
-title: How to migrate MemFree from Vercel to Cloudflare next-on-pages
-description: Issues and solutions for migrating MemFree from vercel to cloudflare next-on-pages
+title: How to migrate Wuyill from Vercel to Cloudflare next-on-pages
+description: Issues and solutions for migrating Wuyill from vercel to cloudflare next-on-pages
 image: /images/blog/blog-post-3.jpg
 date: '2024-11-03'
 ---
@@ -9,11 +9,11 @@ date: '2024-11-03'
 
 你只需要参考 https://developers.cloudflare.com/pages/framework-guides/nextjs/deploy-a-static-nextjs-site/ 几行命令就可以搞定。
 
-为了实践验证，我首先将 MemFree AI Page generator 中的react review 功能拆分出来，单独部署成一个网页： [React Shadcn UI Preview](https://reactshadcn.com/)
+为了实践验证，我首先将 Wuyill AI Page generator 中的react review 功能拆分出来，单独部署成一个网页： [React Shadcn UI Preview](https://reactshadcn.com/)
 
 整个过程十分流程，基本上没有阻碍
 
-## 将 MemFree AI Page Generator 部署到 cloudflare
+## 将 Wuyill AI Page Generator 部署到 cloudflare
 
 ### 挑战一：API 需要支持 edge runtime
 
@@ -88,7 +88,7 @@ NEXT_PUBLIC 的 env 变量在 cloudflare next-on-pages 中无法直接访问，�
 
 ### 6 用 next/mdx 替换 contentlayer2
 
-MemFree 的 doc和blog 都是利用 contentlayer2 基于mdx文件生成的静态页面， 使用 contentlayer2，在 cloudflare next-on-pages 中会得到下面的报错：
+Wuyill 的 doc和blog 都是利用 contentlayer2 基于mdx文件生成的静态页面， 使用 contentlayer2，在 cloudflare next-on-pages 中会得到下面的报错：
 
 ```ts
 EvalError: Code generation from strings disallowed for this context

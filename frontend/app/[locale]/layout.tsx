@@ -31,7 +31,7 @@ export async function generateMetadata({ params: { locale } }) {
         description: t('description'),
         authors: [
             {
-                name: 'MemFree',
+                name: 'Wuyill',
             },
         ],
         creator: t('name'),
@@ -65,7 +65,7 @@ export async function generateMetadata({ params: { locale } }) {
             title: t('title'),
             description: t('description'),
             images: [siteConfig.ogImage],
-            creator: '@MemFree',
+            creator: '@Wuyill',
         },
         icons: {
             icon: '/favicon.ico',
@@ -99,9 +99,9 @@ export default async function RootLayout({ children, params: { locale } }: { chi
                 <Script defer src="https://accounts.google.com/gsi/client" strategy="lazyOnload" />
                 <Script
                     defer
-                    src="https://umami-memfree.fly.dev/script.js"
+                    src="https://umami-wuyill.fly.dev/script.js"
                     data-website-id="ab239486-e4d4-416b-baa5-9174338a1bf6"
-                    data-domains="memefree.me,www.memfree.me"
+                    data-domains="wuyill.com,www.wuyill.com"
                 ></Script>
             </body>
         </html>

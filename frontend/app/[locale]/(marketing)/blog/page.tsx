@@ -7,7 +7,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import { type Locale } from '@/i18n/routing';
 
 export const metadata = {
-    title: 'MemFree Blog -- Hybrid AI Search',
+    title: 'Wuyill Blog -- Hybrid AI Search',
     alternates: {
         canonical: siteConfig.url + '/blog',
     },

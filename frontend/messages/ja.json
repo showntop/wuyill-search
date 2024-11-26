@@ -1,17 +1,17 @@
 {
     "HomePage": {
         "hero": "正確な回答をより早く解放する",
-        "hero-product": "MemFreeに投票して20％割引を受けましょう！",
+        "hero-product": "Wuyillに投票して20％割引を受けましょう！",
         "hero-h1": "ハイブリッドAI検索 - より早く正確な回答を得る",
         "hero2": "知識ベースとインターネットからのハイブリッドAI検索"
     },
     "MetaDate": {
-        "title": "MemFree - ハイブリッドAI検索",
-        "name": "MemFree",
-        "description": "MemFree - 知識ベースとインターネットからのハイブリッドAI検索、より早く正確な回答を得る"
+        "title": "Wuyill - ハイブリッドAI検索",
+        "name": "Wuyill",
+        "description": "Wuyill - 知識ベースとインターネットからのハイブリッドAI検索、より早く正確な回答を得る"
     },
     "Pricing": {
-        "title": "MemFreeの料金",
+        "title": "Wuyillの料金",
         "description": "今すぐ無制限のアクセスを取得",
         "Free1": "1日あたり最大5回の基本AI検索",
         "Free8": "毎日5回のAI UIページ生成",
@@ -45,27 +45,27 @@
         "pre-call": "購読する",
         "pre-once-call": "一回払い",
         "paid-call": "サブスクリプションを管理",
-        "upgrade-call": "MemFree Proで高度な機能を解除",
+        "upgrade-call": "Wuyill Proで高度な機能を解除",
         "upgrade-button": "今すぐアップグレード",
         "Reminder": "サブスクリプションオプションで希望の支払い方法が見つからない場合は、より多くの支払い方法を提供する一括払いオプションを検討してください。"
     },
     "PricingFAQ": {
         "title": "よくある質問",
-        "question1": "なぜMemFreeは知識管理を効率化できるのか",
-        "answer1": "知識ベース（ノート、ブックマーク、ドキュメント）を手動で整理する必要はありません。情報や回答が必要なときは、MemFreeでワンクリックで検索するだけで、記憶容量を解放し、生産性を向上させます。",
-        "question2": "なぜMemFreeは時間を節約し、効率を向上させることができるのか",
-        "answer2": "Google検索結果で複数のウェブページを一つずつクリックする必要はありません。MemFreeはAIを使用して、複数のウェブページと知識ベースから最適な回答を即座に要約し、毎日多くの時間を節約します。",
-        "question3": "なぜMemFreeはコスト効果の高いソリューションなのか",
+        "question1": "なぜWuyillは知識管理を効率化できるのか",
+        "answer1": "知識ベース（ノート、ブックマーク、ドキュメント）を手動で整理する必要はありません。情報や回答が必要なときは、Wuyillでワンクリックで検索するだけで、記憶容量を解放し、生産性を向上させます。",
+        "question2": "なぜWuyillは時間を節約し、効率を向上させることができるのか",
+        "answer2": "Google検索結果で複数のウェブページを一つずつクリックする必要はありません。WuyillはAIを使用して、複数のウェブページと知識ベースから最適な回答を即座に要約し、毎日多くの時間を節約します。",
+        "question3": "なぜWuyillはコスト効果の高いソリューションなのか",
         "answer3": "ChatGPT Plus、Claude Pro、Gemini Advancedなどの複数のAIツールを購読する必要はなく、月々の購読料を大幅に削減します。",
         "question4": "お問い合わせ方法",
-        "answer4": "支払いまたは購読に関する問題が発生した場合は、support@memfree.meまでメールで、またはfeedback.memfree.meを通じてお問い合わせください。"
+        "answer4": "支払いまたは購読に関する問題が発生した場合は、support@wuyill.meまでメールで、またはfeedback.wuyill.meを通じてお問い合わせください。"
     },
     "DemoQuestions": {
         "title1": "比較、要約、複数の画像を検索",
         "title2": "画像で検索して質問する",
         "title3": "Product Huntの質問を検索して尋ねる",
         "title4": "ウェブページとPDFを要約して質問する",
-        "title5": "MemFree AI検索とは何ですか",
+        "title5": "Wuyill AI検索とは何ですか",
         "title6": "Twitterの質問を検索して質問する",
         "title7": "コードを説明して書く"
     },
@@ -84,7 +84,7 @@
         "local-file": "ローカルファイル"
     },
     "IndexWeb": {
-        "placeholder": "評価する公共ウェブページのURLを入力してください。MemfreeはAIを使用してこれらのページの内容を検索できます。",
+        "placeholder": "評価する公共ウェブページのURLを入力してください。WuyillはAIを使用してこれらのページの内容を検索できます。",
         "index-button": "ウェブページをインデックス化",
         "index-extension": "ChromeまたはEdge拡張機能でウェブページをインデックス化",
         "extension-note": "より迅速なインデックス化とより良い品質のためのブラウザ拡張機能"

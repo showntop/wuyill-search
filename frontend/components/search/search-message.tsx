@@ -125,7 +125,7 @@ const SearchMessage = memo(
                                     <div className="flex items-center justify-center mx-auto">
                                         <img
                                             src={attachment}
-                                            alt={`memfree search image ${index + 1}`}
+                                            alt={`wuyill search image ${index + 1}`}
                                             width={400}
                                             height={400}
                                             loading="lazy"

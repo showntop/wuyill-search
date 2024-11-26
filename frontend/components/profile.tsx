@@ -43,10 +43,10 @@ export function CustomProfile() {
             <CardHeader>
                 <CardTitle>Customize Profile</CardTitle>
                 <CardDescription className="text-gray-700 py-2">
-                    Introduce yourself for personalized answers. Share any information or instructions that MemFree should know.
+                    Introduce yourself for personalized answers. Share any information or instructions that Wuyill should know.
                 </CardDescription>
                 <CardDescription>
-                    Your profile is private and only used to instruct MemFree to be more useful to you. Pause or clear your profile at any time.
+                    Your profile is private and only used to instruct Wuyill to be more useful to you. Pause or clear your profile at any time.
                 </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col space-y-2">

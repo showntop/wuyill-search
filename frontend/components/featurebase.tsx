@@ -23,7 +23,7 @@ const Featurebase = ({ user }: FeaturebaseProps) => {
         win.Featurebase(
             'identify',
             {
-                organization: 'memfree',
+                organization: 'wuyill',
                 email: user.email,
                 name: user.name,
                 id: user.email,
@@ -49,7 +49,7 @@ const Featurebase = ({ user }: FeaturebaseProps) => {
             };
         }
         win.Featurebase('initialize_changelog_widget', {
-            organization: 'memfree', // Replace this with your featurebase organization name
+            organization: 'wuyill', // Replace this with your featurebase organization name
             placement: 'top', // Choose between right, left, top, bottom placement (Optional if fullscreenPopup is enabled)
             theme: 'light', // Choose between dark or light theme
             fullscreenPopup: true, // Optional - Open a fullscreen announcement of the new feature to the user

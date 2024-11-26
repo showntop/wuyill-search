@@ -56,7 +56,7 @@ export function extractDomain(url) {
         return match && match[1];
     } catch (error) {
         console.error('Failed to extract domain:', error, url);
-        return 'memfree.me';
+        return 'wuyill.com';
     }
 }
 

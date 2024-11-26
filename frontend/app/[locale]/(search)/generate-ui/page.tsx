@@ -8,9 +8,9 @@ import { getCurrentUser } from '@/lib/session';
 import { generateId } from '@/lib/shared-utils';
 
 const SHORT_TITLE = 'AI UI Generator';
-const TITLE = 'MemFree - AI UI Generator';
+const TITLE = 'Wuyill - AI UI Generator';
 const DESCRIPTION = 'AI Generate UI componet and page With Claude AI, React, Tailwind ans Shadcn UI';
-const OG_IMAGE = 'https://image.memfree.me/UI-home.png';
+const OG_IMAGE = 'https://image.wuyill.com/UI-home.png';
 
 export const metadata = {
     title: SHORT_TITLE,
@@ -40,7 +40,7 @@ export const metadata = {
         title: TITLE,
         description: DESCRIPTION,
         images: OG_IMAGE,
-        creator: '@MemFree',
+        creator: '@Wuyill',
     },
 };
 

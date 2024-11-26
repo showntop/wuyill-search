@@ -1,17 +1,17 @@
 {
     "HomePage": {
         "hero": "Entsperren Sie genaue Antworten schneller",
-        "hero-product": "Stimmen Sie für MemFree für 20 % Rabatt!",
+        "hero-product": "Stimmen Sie für Wuyill für 20 % Rabatt!",
         "hero-h1": "Hybride KI-Suche - erhalten Sie genauere Antworten schneller",
         "hero2": "Hybride KI-Suche aus Wissensdatenbank und Internet"
     },
     "MetaDate": {
-        "title": "MemFree - Hybride KI-Suche",
-        "name": "MemFree",
-        "description": "MemFree - Hybride KI-Suche aus Wissensdatenbank und Internet, erhalten Sie genauere Antworten schneller"
+        "title": "Wuyill - Hybride KI-Suche",
+        "name": "Wuyill",
+        "description": "Wuyill - Hybride KI-Suche aus Wissensdatenbank und Internet, erhalten Sie genauere Antworten schneller"
     },
     "Pricing": {
-        "title": "MemFree Preisgestaltung",
+        "title": "Wuyill Preisgestaltung",
         "description": "Erhalten Sie jetzt unbegrenzten Zugriff",
         "Free1": "Bis zu 5 grundlegende KI-Suchen pro Tag",
         "Free8": "5 KI UI-Seitenerstellungen pro Tag",
@@ -45,27 +45,27 @@
         "pre-call": "Abonnieren",
         "pre-once-call": "Einmalig zahlen",
         "paid-call": "Abonnement verwalten",
-        "upgrade-call": "Schalten Sie erweiterte Funktionen mit MemFree Pro frei",
+        "upgrade-call": "Schalten Sie erweiterte Funktionen mit Wuyill Pro frei",
         "upgrade-button": "Jetzt upgraden",
         "Reminder": "Wenn Sie in den Abonnementoptionen keine bevorzugte Zahlungsmethode finden, ziehen Sie die Einmalzahlung in Betracht, die mehr Zahlungsmethoden bietet."
     },
     "PricingFAQ": {
         "title": "Häufig gestellte Fragen",
-        "question1": "Warum könnte MemFree Ihr Wissensmanagement optimieren",
-        "answer1": "Es ist nicht nötig, Ihre Wissensdatenbank (Notizen, Lesezeichen und Dokumente) manuell zu organisieren. Wenn Sie Informationen oder Antworten benötigen, suchen Sie einfach mit einem Klick in MemFree, was Ihre Speicherkapazität freisetzt und Ihre Produktivität steigert.",
-        "question2": "Warum kann MemFree Ihnen Zeit sparen und Ihre Effizienz verbessern",
-        "answer2": "Es ist nicht nötig, in den Google-Suchergebnissen eine Webseite nach der anderen anzuklicken. MemFree verwendet KI, um sofort die besten Antworten aus mehreren Webseiten und Ihrer Wissensdatenbank zusammenzufassen, was Ihnen jeden Tag viel Zeit spart.",
-        "question3": "Warum ist MemFree eine kosteneffektive Lösung",
+        "question1": "Warum könnte Wuyill Ihr Wissensmanagement optimieren",
+        "answer1": "Es ist nicht nötig, Ihre Wissensdatenbank (Notizen, Lesezeichen und Dokumente) manuell zu organisieren. Wenn Sie Informationen oder Antworten benötigen, suchen Sie einfach mit einem Klick in Wuyill, was Ihre Speicherkapazität freisetzt und Ihre Produktivität steigert.",
+        "question2": "Warum kann Wuyill Ihnen Zeit sparen und Ihre Effizienz verbessern",
+        "answer2": "Es ist nicht nötig, in den Google-Suchergebnissen eine Webseite nach der anderen anzuklicken. Wuyill verwendet KI, um sofort die besten Antworten aus mehreren Webseiten und Ihrer Wissensdatenbank zusammenzufassen, was Ihnen jeden Tag viel Zeit spart.",
+        "question3": "Warum ist Wuyill eine kosteneffektive Lösung",
         "answer3": "Es ist nicht nötig, mehrere KI-Tools wie ChatGPT Plus, Claude Pro und Gemini Advanced zu abonnieren, was Ihre monatlichen Abonnementgebühren erheblich reduziert.",
         "question4": "Wie können Sie uns kontaktieren?",
-        "answer4": "Wenn Sie Probleme mit der Zahlung oder dem Abonnement haben, kontaktieren Sie uns bitte per E-Mail unter support@memfree.me oder über feedback.memfree.me"
+        "answer4": "Wenn Sie Probleme mit der Zahlung oder dem Abonnement haben, kontaktieren Sie uns bitte per E-Mail unter support@wuyill.com oder über feedback.wuyill.com"
     },
     "DemoQuestions": {
         "title1": "Vergleichen, Zusammenfassen, mehrere Bilder durchsuchen",
         "title2": "Durchsuchen und Fragen mit Bildern",
         "title3": "Suchen und Fragen zu Product Hunt stellen",
         "title4": "Zusammenfassen und Fragen zu Webseiten und PDFs",
-        "title5": "Was ist die MemFree KI-Suche?",
+        "title5": "Was ist die Wuyill KI-Suche?",
         "title6": "Durchsuchen und Fragen zu Twitter-Fragen",
         "title7": "Erklären und Code schreiben"
     },
@@ -84,7 +84,7 @@
         "local-file": "Lokale Datei"
     },
     "IndexWeb": {
-        "placeholder": "Bitte geben Sie die URL der öffentlichen Webseiten ein, die Sie schätzen. Memfree ermöglicht es Ihnen, den Inhalt dieser Seiten mit KI zu durchsuchen.",
+        "placeholder": "Bitte geben Sie die URL der öffentlichen Webseiten ein, die Sie schätzen. Wuyill ermöglicht es Ihnen, den Inhalt dieser Seiten mit KI zu durchsuchen.",
         "index-button": "Webseite indizieren",
         "index-extension": "Webseite mit Chrome- oder Edge-Erweiterung indizieren",
         "extension-note": "Browsererweiterung für schnellere Indizierung und bessere Qualität"

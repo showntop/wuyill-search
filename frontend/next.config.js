@@ -29,7 +29,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'image.memfree.me',
+                hostname: 'image.wuyill.com',
             },
         ],
     },

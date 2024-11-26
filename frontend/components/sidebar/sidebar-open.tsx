@@ -92,7 +92,7 @@ export default function SidebarOpen({ user }: NavBarProps) {
                             <Link
                                 href="/settings"
                                 prefetch={false}
-                                aria-label="MemFree Settings"
+                                aria-label="Wuyill Settings"
                                 className="inline-flex items-center justify-center hover:text-primary hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg p-2 m-2"
                             >
                                 <Settings size={20} strokeWidth={2} className="text-gray-800 dark:text-white" />
@@ -106,7 +106,7 @@ export default function SidebarOpen({ user }: NavBarProps) {
                     {/* <Tooltip>
                         <TooltipTrigger asChild>
                             <Link
-                                href="/docs/memfree-user-guide"
+                                href="/docs/wuyill-user-guide"
                                 prefetch={false}
                                 aria-label="Doc & Help"
                                 className="inline-flex items-center justify-center hover:text-primary hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg p-2 m-2"

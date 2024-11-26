@@ -16,9 +16,9 @@ export function MobileFooter() {
                     <Button variant="ghost" size="icon" asChild>
                         <Link
                             data-featurebase-link
-                            href="https://feedback.memfree.me"
+                            href="https://feedback.wuyill.com"
                             target="_blank"
-                            aria-label="MemFree Feedback"
+                            aria-label="Wuyill Feedback"
                             data-umami-event="Mobile Feedback Click"
                         >
                             <Heart className="size-5 hover:text-primary" />

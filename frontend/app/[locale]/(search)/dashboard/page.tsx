@@ -67,7 +67,7 @@ export default async function page() {
                                         </CardDescription>
                                         <CardDescription className="text-md font-semibold py-2">
                                             Please refer to{' '}
-                                            <a href="https://www.memfree.me/docs/index-bookmarks" target="_blank" className="text-primary">
+                                            <a href="https://www.wuyill.com/docs/index-bookmarks" target="_blank" className="text-primary">
                                                 How to Index Web Pages
                                             </a>
                                         </CardDescription>

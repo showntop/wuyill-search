@@ -8,7 +8,7 @@ export const axiom = new Axiom({
 
 export const log = async (message: any) => {
     try {
-        axiom.ingest('memfree', [message]);
+        axiom.ingest('wuyill', [message]);
     } catch (error) {
         console.error('Error logging to Axiom:', error);
     }

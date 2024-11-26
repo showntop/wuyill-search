@@ -7,11 +7,11 @@ date: '2024-11-09'
 
 ## I Background
 
-Referencing the previous article [Migrate MemFree from Vercel to Cloudflare Next.js on Pages](https://www.memfree.me/blog/couldflare-next-on-page-edge), I have deployed [PageGen AI](https://pagegen.ai/) on Cloudflare Next.js on Pages.
+Referencing the previous article [Migrate Wuyill from Vercel to Cloudflare Next.js on Pages](https://www.wuyill.com/blog/couldflare-next-on-page-edge), I have deployed [PageGen AI](https://pagegen.ai/) on Cloudflare Next.js on Pages.
 
 However, recently when I accessed Anthropic's claude-3-5-sonnet-20241022, I received a 403 forbidden exception. My user was accessing it from Singapore, and Anthropic's supported regions include Singapore, so I was a bit confused at first.
 
-After having [MemFree](https://www.memfree.me/) analyze the error logs, it was discovered that the crucial point is that Cloudflare ultimately sent the request to Anthropic via the edge node in Hong Kong, resulting in the 403 forbidden exception.
+After having [Wuyill](https://www.wuyill.com/) analyze the error logs, it was discovered that the crucial point is that Cloudflare ultimately sent the request to Anthropic via the edge node in Hong Kong, resulting in the 403 forbidden exception.
 
 ```ts
   responseHeaders: {
@@ -35,7 +35,7 @@ After having [MemFree](https://www.memfree.me/) analyze the error logs, it was d
 
 ## II Analysis
 
-The user request flow provided by MemFree is as follows:
+The user request flow provided by Wuyill is as follows:
 
 ```ts
 Your Next.js App (Singapore) -> Cloudflare Edge (Hong Kong) -> Anthropic API

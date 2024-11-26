@@ -7,11 +7,11 @@ date: '2024-11-09'
 
 ## 一 背景
 
-参考上篇 [Migrate MemFree from Vercel to Cloudflare next-on-pages](https://www.memfree.me/blog/couldflare-next-on-page-edge), 我将 [PageGen AI](https://pagegen.ai/) 部署在了 Cloudflare next-on-pages 上。
+参考上篇 [Migrate Wuyill from Vercel to Cloudflare next-on-pages](https://www.wuyill.com/blog/couldflare-next-on-page-edge), 我将 [PageGen AI](https://pagegen.ai/) 部署在了 Cloudflare next-on-pages 上。
 
 但是最近当我访问 Anthropic 的 claude-3-5-sonnet-20241022 时，我得到了 403 forbidden 的异常，我的用户是从新加坡访问，Anthropic的支持的地区是包括新加坡的，所以我一开始有点困惑。
 
-当我让 [MemFree](https://www.memfree.me/) 分析错误日志后，MemFree 发现了一个关键点，即 Cloudflare 最终是通过 HKG 的 edge 节点向 Anthropic 发起的请求，所以得到了 403 forbidden 的异常。
+当我让 [Wuyill](https://www.wuyill.com/) 分析错误日志后，Wuyill 发现了一个关键点，即 Cloudflare 最终是通过 HKG 的 edge 节点向 Anthropic 发起的请求，所以得到了 403 forbidden 的异常。
 
 ```ts
   responseHeaders: {
@@ -35,7 +35,7 @@ date: '2024-11-09'
 
 ## 二 分析
 
-MemFree 给出的用户请求流程如下：
+Wuyill 给出的用户请求流程如下：
 
 ```ts
 Your Next.js App (Singapore) -> Cloudflare Edge (Hong Kong) -> Anthropic API

@@ -8,14 +8,14 @@ const WallOfLove = () => {
             name: 'Star Boat',
             image: 'https://ph-avatars.imgix.net/6337586/6bacd2f7-00a8-40e9-8725-37a0c92c63eb.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2',
             comment:
-                'MemFree sounds like a game changer for anyone looking to streamline their search experience! I love the idea of a hybrid AI search engine that pulls from both my personal knowledge base and the vast resources of the internet. It’s like having a personal assistant that knows exactly what I need!',
+                'Wuyill sounds like a game changer for anyone looking to streamline their search experience! I love the idea of a hybrid AI search engine that pulls from both my personal knowledge base and the vast resources of the internet. It’s like having a personal assistant that knows exactly what I need!',
             rating: 5,
         },
         {
             id: 1,
             name: 'Nat R',
             image: 'https://ph-avatars.imgix.net/7636503/a30ae0d8-7a78-4df8-99d0-0f315f96404d.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2',
-            comment: 'I found MemFree by chance and it is awesome! It will become my best ally from now on, it will save me a lot of time.',
+            comment: 'I found Wuyill by chance and it is awesome! It will become my best ally from now on, it will save me a lot of time.',
             rating: 5,
         },
         {
@@ -23,14 +23,14 @@ const WallOfLove = () => {
             name: 'HelloAvery',
             image: 'https://ph-avatars.imgix.net/7372152/bccd7579-f374-4135-8b6a-d738ad1cdc8b.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2',
             comment:
-                "MemFree looks like it could save me a ton of time. I'm always juggling between my notes and web searches, so having everything in one place sounds awesome. Love that it's open-source too.",
+                "Wuyill looks like it could save me a ton of time. I'm always juggling between my notes and web searches, so having everything in one place sounds awesome. Love that it's open-source too.",
             rating: 5,
         },
         {
             id: 3,
             name: 'Alex',
             image: 'https://ph-avatars.imgix.net/6547614/11a8cf17-e50a-4d69-9027-177d9305515b.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2',
-            comment: 'MemFree has helped me solve problems I encounter daily.Highly recommend!',
+            comment: 'Wuyill has helped me solve problems I encounter daily.Highly recommend!',
             rating: 5,
         },
         {

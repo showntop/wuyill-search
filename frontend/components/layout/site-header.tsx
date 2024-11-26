@@ -41,7 +41,7 @@ export default function SiteHeader({ user, items }: NavBarProps) {
         <header className={cn('grid w-full grid-cols-2 gap-2 md:grid-cols-5 py-5')}>
             <div className="flex items-center md:col-span-1 mx-5 md:mx-10">
                 <Link prefetch={false} href="/" className="items-center space-x-2 flex">
-                    <Image src={'/logo.png'} width="24" height="24" alt="MemFree Logo"></Image>
+                    <Image src={'/logo.png'} width="24" height="24" alt="Wuyill Logo"></Image>
                     <span className=" mx-2 font-urban text-xl font-bold">{siteConfig.name}</span>
                 </Link>
             </div>
@@ -60,11 +60,11 @@ export default function SiteHeader({ user, items }: NavBarProps) {
                 })}
                 <Button key="changelog" variant="link" asChild>
                     <Link
-                        href="https://feedback.memfree.me/changelog"
+                        href="https://feedback.wuyill.com/changelog"
                         data-featurebase-link
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="MemFree Changelog"
+                        aria-label="Wuyill Changelog"
                     >
                         <span className="text-black dark:text-white">Changelog</span>
                     </Link>
