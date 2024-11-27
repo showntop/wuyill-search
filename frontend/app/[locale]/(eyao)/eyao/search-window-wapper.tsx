@@ -28,7 +28,7 @@ export default function SearchWindowWapper({ id, user }: SearchPageProps) {
         if (!input.trim()) return;
         setIsLoading(true);
         try {
-            const response = await fetch('http://localhost:9001/api/eyao/query', {
+            const response = await fetch('/api/eyao/query', {
                 method: 'POST',
                 headers: {
                     'Accept': 'text/event-stream',
