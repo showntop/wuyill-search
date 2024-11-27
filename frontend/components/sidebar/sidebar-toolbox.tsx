@@ -2,6 +2,8 @@
 
 import * as React from 'react';
 import { useToggleToolbox } from '@/hooks/use-toggle-toolbox';
+import { useRouter } from 'next/navigation';
+import { al } from '@upstash/redis/zmscore-9faf292c';
 
 interface Tool {
     id: string;
@@ -14,6 +16,7 @@ interface ToolItem {
     id: string;
     icon: string;
     label: string;
+    onClick: () => void;
 }
 
 export function Toolbox() {
@@ -22,22 +25,39 @@ export function Toolbox() {
     const tools: Tool[] = [
         {
             id: 'basic-tools',
-            name: '基础工具',
+            name: '生活助手',
             items: [
-                { id: 'tool1', icon: '📚', label: '阅读模式' },
-                { id: 'tool2', icon: '🔤', label: '翻译' },
-                { id: 'tool3', icon: '🔄', label: '刷新' },
-                { id: 'tool4', icon: '✂️', label: '截图' },
-                { id: 'tool5', icon: '🖥️', label: '全屏' },
-                { id: 'tool6', icon: '🔗', label: '链接' },
+                { id: 'eyao', icon: '💊', label: '医药百科', onClick: () => {
+                    // 跳转到 医药百科页面
+                    window.location.href = '/eyao';
+                } },
+                { id: 'tool2', icon: '🔤', label: '翻译', onClick: () => {
+                    window.open('https://www.eyao.ai/translate', '_blank');
+                } },
+                { id: 'tool3', icon: '🔄', label: '刷新', onClick: () => {
+                    window.location.reload();
+                } },
+                { id: 'tool4', icon: '✂️', label: '截图', onClick: () => {
+                    window.open('https://www.eyao.ai/screenshot', '_blank');
+                } },
+                { id: 'tool5', icon: '🖥️', label: '全屏', onClick: () => {
+                    window.open('https://www.eyao.ai/fullscreen', '_blank');
+                } },
+                { id: 'tool6', icon: '🔗', label: '链接', onClick: () => {
+                    window.open('https://www.eyao.ai/link', '_blank');
+                } },
             ]
         },
         {
             id: 'more-tools',
             name: '更多工具',
             items: [
-                { id: 'tool7', icon: '📝', label: '笔记' },
-                { id: 'tool8', icon: '🎯', label: '目标' },
+                { id: 'tool7', icon: '📝', label: '笔记', onClick: () => {
+                    window.open('https://www.eyao.ai/note', '_blank');
+                } },
+                { id: 'tool8', icon: '🎯', label: '目标', onClick: () => {
+                    window.open('https://www.eyao.ai/goal', '_blank');
+                } },
             ]
         }
     ];
@@ -51,6 +71,7 @@ export function Toolbox() {
                         {section.items.map((item) => (
                             <button
                                 key={item.id}
+                                onClick={item.onClick}
                                 className="flex flex-col items-center p-2 hover:bg-gray-50 rounded-lg"
                             >
                                 <span className="text-xl mb-1">{item.icon}</span>

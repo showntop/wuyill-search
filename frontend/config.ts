@@ -13,8 +13,8 @@ import {
     STRIPE_PREMIUM_ONE_YEAR_ID,
 } from '@/lib/client_env';
 
-const site_url = 'https://wuyill.com';
-export const PageGenUrl = 'https://wuyill.com';
+const site_url = 'http://wuyill.com';
+export const PageGenUrl = 'http://wuyill.com';
 export const StorySnapUrl = 'https://www.snapstoryai.com';
 export const SearchUrl = 'https://wuyill.com';
 export const ReactShadcnUrl = 'https://reactshadcn.com';
